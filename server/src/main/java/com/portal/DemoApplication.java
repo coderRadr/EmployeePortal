@@ -11,7 +11,7 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Portal API", version = "1.0.0", description = "Portal Service to get employee details", contact = @Contact(name = "Mohan", email = "mohankanuri@outlook.com")))
+@OpenAPIDefinition(info = @Info(title = "Portal API", version = "1.0.0", description = "Portal Service to get employee details", contact = @Contact(name = "Admin", email = "admin@company.com")))
 public class DemoApplication {
 
     public static void main(String[] args) {
