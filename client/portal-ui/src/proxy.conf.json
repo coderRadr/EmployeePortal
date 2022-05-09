@@ -1,0 +1,11 @@
+{
+    "/api": {
+        "target": "https://server-host/portal/v1",
+        "secure": false,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/api": ""
+        },
+        "changeOrigin": true
+    }
+}

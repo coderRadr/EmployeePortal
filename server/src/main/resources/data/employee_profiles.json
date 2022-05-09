@@ -4,7 +4,7 @@
 		"firstName": "ABC",
 		"lastName": "EF",
 		"email": "ABC.EF@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 1
 	},
 	{
@@ -12,7 +12,7 @@
 		"firstName": "BCD",
 		"lastName": "FG",
 		"email": "BCD.FG@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 2
 	},
 	{
@@ -20,7 +20,7 @@
 		"firstName": "CDE",
 		"lastName": "GH",
 		"email": "CDE.GH@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 3
 	},
 	{
@@ -28,7 +28,7 @@
 		"firstName": "DEF",
 		"lastName": "HI",
 		"email": "DEF.HI@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 4
 	},
 	{
@@ -36,7 +36,7 @@
 		"firstName": "EFG",
 		"lastName": "IJ",
 		"email": "EFG.IJ@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 5
 	},
 	{
@@ -44,7 +44,7 @@
 		"firstName": "FGH",
 		"lastName": "JK",
 		"email": "FGH.JK@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 6
 	},
 	{
@@ -52,7 +52,7 @@
 		"firstName": "GHI",
 		"lastName": "KL",
 		"email": "GHI.KL@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 7
 	},
 	{
@@ -60,7 +60,7 @@
 		"firstName": "HIJ",
 		"lastName": "LM",
 		"email": "HIJ.LM@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 8
 	},
 	{
@@ -68,7 +68,7 @@
 		"firstName": "IJK",
 		"lastName": "MN",
 		"email": "IJK.MN@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 9
 	},
 	{
@@ -76,7 +76,7 @@
 		"firstName": "JKL",
 		"lastName": "NO",
 		"email": "JKL.NO@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 10
 	},
 	{
@@ -84,7 +84,7 @@
 		"firstName": "KLM",
 		"lastName": "OP",
 		"email": "KLM.OP@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 11
 	},
 	{
@@ -92,7 +92,7 @@
 		"firstName": "LMN",
 		"lastName": "PQ",
 		"email": "LMN.PQ@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 12
 	},
 	{
@@ -100,7 +100,7 @@
 		"firstName": "MNO",
 		"lastName": "QR",
 		"email": "MNO.QR@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 13
 	},
 	{
@@ -108,7 +108,7 @@
 		"firstName": "NOP",
 		"lastName": "RS",
 		"email": "NOP.RS@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 14
 	},
 	{
@@ -116,7 +116,7 @@
 		"firstName": "OPQ",
 		"lastName": "ST",
 		"email": "OPQ.ST@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 0
 	},
 	{
@@ -124,7 +124,7 @@
 		"firstName": "PQR",
 		"lastName": "TU",
 		"email": "PQR.TU@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 16
 	},
 	{
@@ -132,7 +132,7 @@
 		"firstName": "QRS",
 		"lastName": "UV",
 		"email": "QRS.UV@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 17
 	},
 	{
@@ -140,7 +140,7 @@
 		"firstName": "RST",
 		"lastName": "VW",
 		"email": "RST.VW@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 18
 	},
 	{
@@ -148,7 +148,7 @@
 		"firstName": "STU",
 		"lastName": "WX",
 		"email": "STU.WX@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 19
 	},
 	{
@@ -156,7 +156,7 @@
 		"firstName": "TUV",
 		"lastName": "XY",
 		"email": "TUV.XY@company.com",
-		"areaOfExpertise": "Java, Python, UX Design, Systen Design",
+		"areaOfExpertise": "Java, Python, UX Design, System Design",
 		"yearsOfExperience": 20
 	}
 ]
