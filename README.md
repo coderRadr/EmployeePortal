@@ -1,2 +1,2 @@
 # EmployeePortal
-A SpringBoot - React Js application to search and update employee records
+A SpringBoot - Angular application to search and update employee records
