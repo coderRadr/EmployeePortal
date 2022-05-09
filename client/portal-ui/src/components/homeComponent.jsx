@@ -25,8 +25,6 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
-        <div className="card">
           <DataTable value={this.state.employees} responsiveLayout="scroll">
             <Column field="empId" header="Id"></Column>
             <Column field="firstName" header="First Name"></Column>
@@ -38,8 +36,6 @@ class Home extends Component {
               header="Years of Experience"
             ></Column>
           </DataTable>
-        </div>
-      </div>
     );
   }
 }
