@@ -1,5 +1,5 @@
 export class ProfileModel {
-    empId: Number = 0;
+    empId: number = 0;
 	firstName: String = '';
 	lastName: String = '';
     email: String = '';
