@@ -20,7 +20,7 @@ public class ProfileModel {
 
 	private String areaOfExpertise;
 
-	private Integer yearsOfExperience;
+	private Double yearsOfExperience;
 
 	public int getEmpId() {
 		return empId;
@@ -62,11 +62,11 @@ public class ProfileModel {
 		this.areaOfExpertise = areaOfExpertise;
 	}
 
-	public Integer getYearsOfExperience() {
+	public Double getYearsOfExperience() {
 		return yearsOfExperience;
 	}
 
-	public void setYearsOfExperience(Integer yearsOfExperience) {
+	public void setYearsOfExperience(Double yearsOfExperience) {
 		this.yearsOfExperience = yearsOfExperience;
 	}
 

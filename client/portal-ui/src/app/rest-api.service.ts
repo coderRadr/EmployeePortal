@@ -19,4 +19,9 @@ export class RestApiService {
     return this.httpClient.put(requestUrl, record);
   }
 
+  addProfile(record: ProfileModel): Observable<any> {
+    let requestUrl = `/api/addEmployee/${record.empId}`;
+    return this.httpClient.post(requestUrl, record);
+  }
+
 }

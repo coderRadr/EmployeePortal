@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -52,14 +53,15 @@ public class MainController {
 		return ResponseEntity.ok(updatedDtls);
 
 	}
-	
-	@DeleteMapping(value = "deleteEmployee/{id}")
-	public void deleteEmployeeById(@PathVariable("id") Integer id){
+
+	@DeleteMapping(value = "/deleteEmployee/{id}")
+	public void deleteEmployeeById(@PathVariable("id") Integer id) {
 		service.deleteEmployee(id);
 	}
-	
-	@PostMapping(value = "/addEmployee")
-	public ResponseEntity<ProfileModel> addEmployee(@RequestBody ProfileModel model){
+
+	@PostMapping(value = "/addEmployee/{id}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<ProfileModel> addEmployee(@RequestBody(required = true) ProfileModel model, @PathVariable("id") Integer id,
+			HttpServletRequest request, HttpServletResponse response) {
 		ProfileModel addEmployee = service.addEmployee(model);
 		return ResponseEntity.ok(addEmployee);
 	}

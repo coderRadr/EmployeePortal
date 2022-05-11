@@ -1,4 +1,40 @@
-<div>
+<div class="card">
+  <p-toolbar styleClass="mb-4">
+    <ng-template pTemplate="left">
+      <button pButton pRipple label="New" icon="pi pi-plus" class="p-button-success mr-2" (click)="onAddNew()"></button>
+    </ng-template>
+  </p-toolbar>
+  <p-dialog header="Add New Employee Record" [(visible)]="openNewDialogue">
+    <ng-template pTemplate="content">
+      <div class="p-float-label" style="padding-bottom: 2%;">
+        <input pInputText type="text" id="empId" [(ngModel)]="empId" disabled="true" placeholder="Employee Id">
+      </div>
+      <div class="p-float-label" style="padding-bottom: 2%;">
+        <input pInputText type="text" id="firstName" [(ngModel)]="firstName" placeholder="First Name" (ngModelChange)="validateInput($event, 'firstName')">
+        <span *ngIf="firstNameInvalid" class="text-danger" style="padding-left: 1%;">Input is not in desired format</span>
+      </div>
+      <div class="p-float-label" style="padding-bottom: 2%;">
+        <input pInputText type="text" id="lastName" [(ngModel)]="lastName" placeholder="Last Name" (ngModelChange)="validateInput($event, 'lastName')">
+        <span *ngIf="lastNameInvalid" class="text-danger" style="padding-left: 1%;">Input is not in desired format</span>
+      </div>
+      <div class="p-float-label" style="padding-bottom: 2%;">
+        <input pInputText type="text" id="email" [(ngModel)]="email" placeholder="Email" pattern="FirstName.LastName@company.com" (ngModelChange)="validateInput($event, 'email')">
+        <span *ngIf="emailInvalid" class="text-danger" style="padding-left: 1%;">Input is not in desired format</span>
+      </div>
+      <div class="p-float-label" style="padding-bottom: 2%;">
+        <input pInputText type="text" id="areaOfExpertise" [(ngModel)]="areaOfExpertise" placeholder="Areas of Expertise" (ngModelChange)="validateInput($event, 'areas')">
+        <span *ngIf="areasInvalid" class="text-danger" style="padding-left: 1%;">Input is not in desired format</span>
+      </div>
+      <div class="p-float-label" style="padding-bottom: 2%;">
+        <input pInputText type="text" id="yearsOfExperience" [(ngModel)]="yearsOfExperience" placeholder="Years of Experience" (ngModelChange)="validateInput($event, 'experience')">
+        <span *ngIf="experienceInvalid" class="text-danger" style="padding-left: 1%;">Input is not in desired format</span>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="footer">
+      <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text" (click)="closeDialogWindow()"></button>
+      <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text" [disabled]="submitDisabled" (click)="saveRecord()"></button>
+    </ng-template>
+  </p-dialog>
   <p-table #dt [value]="employeeProfiles" styleClass="p-datatable-gridlines" [loading]="loading" dataKey="empId"
       [globalFilterFields]="['firstName','lastName','email','areaOfExpertise','yearsOfExperience']"
       editMode="row">
